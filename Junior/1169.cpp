@@ -9,7 +9,7 @@ void print(int a)
 }
 bool temp(int a,int b)
 {
-	return fabs(a)>fabs(b);   //¾ø¶ÔÖµÅÅĞò 
+	return fabs(a)>fabs(b);   //ç»å¯¹å€¼æ’åº
 }
 int main()
 {
