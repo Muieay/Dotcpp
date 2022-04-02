@@ -18,11 +18,11 @@ int main()
 		{
 			if(a[i]>=a[0])
 			{
-				v.push_back(a[i]);
+				v.push_back(a[i]);            //尾插
 			}
 			else
 			{
-				v.push_front(a[i]);
+				v.push_front(a[i]);          //头插
 			}
 		}
 		for(deque<int>::iterator it=v.begin();it<v.end();it++)
@@ -30,6 +30,6 @@ int main()
 			cout<<*it<<" ";
 		}
 		cout<<endl;
-		v.clear();
+		v.clear();              //重置容器
 	}
 }
